@@ -58,12 +58,35 @@ main {
 
 header {
     display: flex;
+    align-items: center;
 }
 
 header > div {
     width: auto;
 }
 
+.logo {
+    display: flex;
+    gap: 20px;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+}
+
 .selettore {
     margin-left: auto;
+}
+
+#difficulty {
+    width: 200px;
+}
+
+#play {
+    padding: 0 20px;
+}
+
+.selettore label {
+    font-weight: 600;
 }
